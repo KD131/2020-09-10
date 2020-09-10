@@ -23,7 +23,7 @@ void draw()
   
   fill(0);
   rect(-10,20,20,height-40);
-  rect(-100,0,200,height-40);
+  rect(-100,20,200,460);
   fill(light1);
   circle(0,100,150);
   fill(light2);
@@ -57,4 +57,5 @@ void keyPressed()
   
   // not the nicest coding for the if statements but it was a last minute adjustment.
   // the previous version was just a single circle switching between green and red.
+  // Im also aware that I declare a lot of stuff globally. I need it in both draw() and keyPressed so I don't know what to do about that.  
 }
